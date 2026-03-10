@@ -61,5 +61,6 @@ To create a standalone `.exe` file that runs without installing Python:
 
 **Divyansh Singh**
 
+- [App](https://github.com/YourUsername/vegetables-fruits-quality-detection.git)
 - [LinkedIn](https://www.linkedin.com/in/divyansh-singh-26a95a248/)
 - [GitHub](https://github.com/di84867)
