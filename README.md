@@ -24,27 +24,9 @@ This project leverages state-of-the-art **Convolutional Neural Networks (CNN)** 
 
 - **Real-time Monitoring**: Continuous video feed analysis for instant quality feedback.
 - **Smart Classification**: Detects a wide variety of produce and classifies them into "Fresh" or "Rotten" categories.
-- **Multi-Platform Support**: Available as a Desktop GUI, a Web Application, and a Command Line Interface.
+- **Multi-Platform Support**: Includes a comprehensive **Web Application**, a **Desktop GUI**, and a high-performance **CLI**.
 - **High Accuracy**: Powered by a custom-trained `.h5` model optimized for produce features.
-- **User-Friendly Interfaces**: Specialized UIs for different workflows (Web vs Desktop).
 </details>
-
----
-
-## 🚀 Interactive Interfaces
-
-Explore the project through our specialized interfaces designed for different use cases.
-
-<table align="center">
-  <tr>
-    <td align="center"><b>Web Application (Streamlit)</b></td>
-    <td align="center"><b>Desktop GUI (Tkinter)</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/web_app.png" alt="Web App Mockup" width="400px"></td>
-    <td><img src="assets/gui_app.png" alt="GUI App Mockup" width="400px"></td>
-  </tr>
-</table>
 
 ---
 
@@ -53,7 +35,7 @@ Explore the project through our specialized interfaces designed for different us
 - **Core**: ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 - **Deep Learning**: ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 - **Computer Vision**: ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-- **Interfaces**: ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) (Web) | Tkinter (Desktop)
+- **Interfaces**: ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) (Web Support) | Tkinter (Desktop Support)
 
 ---
 
@@ -85,32 +67,11 @@ Get started in just a few steps:
 
 ## 📖 Usage Guide
 
-<details>
-<summary><b>🌐 Running the Web Application</b></summary>
+You can run the detection system through any of the following interfaces:
 
-The web app provides a modern dashboard for uploading images or using your webcam for instant analysis.
-```bash
-streamlit run web_app.py
-```
-</details>
-
-<details>
-<summary><b>🖥️ Running the Desktop GUI</b></summary>
-
-Perfect for local deployment and dedicated quality control stations.
-```bash
-python gui_app.py
-```
-</details>
-
-<details>
-<summary><b>📟 Running the CLI & Batch Processing</b></summary>
-
-For advanced users and automated scripts.
-```bash
-python main.py
-```
-</details>
+- **Web Application**: `streamlit run web_app.py`
+- **Desktop GUI**: `python gui_app.py`
+- **Command Line**: `python main.py`
 
 ---
 
